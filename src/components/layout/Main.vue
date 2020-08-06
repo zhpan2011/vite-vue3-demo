@@ -27,7 +27,7 @@ import NavBar from './NavBar.vue';
 import SideBar from './SideBar.vue';
 import LevelBar from './LevelBar.vue';
 import FooterBar from './FooterBar.vue';
-import {onMounted, reactive, computed, toRefs} from 'vue';
+import {computed, onMounted, reactive, toRefs} from 'vue';
 import {useStore} from 'vuex';
 
 export default {
