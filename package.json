@@ -1,0 +1,28 @@
+{
+  "name": "cw",
+  "version": "1.0",
+  "description": "中国移动财务管理系统",
+  "author": "hbhb",
+  "license": "MIT",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build"
+  },
+  "devDependencies": {
+    "@bundled-es-modules/axios": "^0.18.1",
+    "@vue/compiler-sfc": "^3.0.0-rc.5",
+    "animate.css": "^4.1.0",
+    "bulma": "^0.9.0",
+    "bulma-toast": "^2.0.1",
+    "nprogress": "^1.0.0-1",
+    "sass": "^1.26.10",
+    "vite": "^1.0.0-rc.4",
+    "vue": "next",
+    "vue-bulma-breadcrumb": "^1.0.1",
+    "vue-bulma-chartjs": "^1.0.5",
+    "vue-bulma-expanding": "^0.0.1",
+    "vue-bulma-message": "^1.1.1",
+    "vue-router": "next",
+    "vuex": "next"
+  }
+}
