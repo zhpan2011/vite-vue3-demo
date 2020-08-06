@@ -55,13 +55,13 @@
             Expanding
         },
         setup() {
-            const {getters, commit} = useStore();
+            const {getters, dispatch} = useStore();
             const data = reactive({
                 accessRouters: getters.accessRouters
             })
 
             const toggle = (index, item) => {
-                commit('ExpandMenu', {
+              dispatch('ExpandMenu', {
                     index: index,
                     expanded: !item.meta.expanded
                 })
